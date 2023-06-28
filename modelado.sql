@@ -17,7 +17,7 @@ CREATE TABLE IF NOT EXISTS public.courses
     title character varying(255) NOT NULL,
     description character varying(500),
     teacher character varying(255) NOT NULL,
-    PRIMARY KEY (teacher_id)
+    PRIMARY KEY (id)
 );
 
 CREATE TABLE IF NOT EXISTS public.course_video
